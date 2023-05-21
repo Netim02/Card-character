@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Source Sans Pro';
+    color: #D8CEDE;
+}
+ 
+body{
+    background: linear-gradient(102.32deg, #030422 -2.74%, #090114 101.6%);
+}
+
+.flex{
+    display: flex;
+}
+
+.cards { 
+    height: 100vh;
+    width: 100vw;
+    justify-content: center; 
+    
+}
+
+.card_principal{
+    position: absolute;
+    background-image: url("https://i.ibb.co/NKcJDzP/Image.jpg");
+    border-radius: 20px;
+    width: 436px;
+    height: 608px;
+    margin: 80px;
+}
+
+
+
+.card_principal--text{
+    flex-direction: column;
+    position: absolute;
+    align-items:center;
+}
+
+.card_principal--text--header{
+    max-width: 264px;
+    margin: 48px 0 0 40px;
+}
+
+.card_principal--text--header h1{
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: #ECE4EF;
+
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+}
+
+.card_principal--text--header p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: #D8CEDE;
+}
+
+
+.card_principal--text--body{
+    max-width: 198px;
+    margin: 60px 0 0 40px;
+    
+}
+
+.card_principal--text--body li{
+    list-style: none;
+    margin-bottom: 16px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+
+    color: #D8CEDE;
+}
+
+.card_principal--text--body li p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+        
+    color: #9C83A7;  
+}
+
+.card_principal--img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    
+}
+
+.side{
+    gap: 220px;
+    margin-top: 141px;
+}
+
+
+
+
+
